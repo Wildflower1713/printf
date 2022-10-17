@@ -103,7 +103,7 @@ The character \fI%\fR is followed by zero the following flags:
 .SH EXAMPLE
 .R To print the the string \fBHello Alxafrica!\fR and its length in decimal.
 
-#include ''holberton.h''
+#include ''main.h''
 
 int main(void)
 
@@ -115,7 +115,7 @@ int main(void)
 
 	_printf(''Hello Alxafrica! contains %d characters'', length);
 
-	length = _printf(''Hello Holberton!'');
+	length = _printf(''Hello Alxafrica!'');
 
 	return (0);
 
@@ -123,4 +123,4 @@ int main(void)
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
-Written by \fBDiego López\fR and \fBLuis Chaparro\fR.
+Written by \fBMagdalene Eniang\fR and \fBEmmanuel Odogbor\fR.
